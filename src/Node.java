@@ -1,9 +1,8 @@
 /**
  * Clase para representar un nodo en una lista doblemente enlazada
- * 
- * @author Jose Alberto Cruz Martinez
  *
  * @param <T> tipo de los elementos a contener en la lista
+ * @author Jose Alberto Cruz Martinez
  */
 public class Node<T> {
 
@@ -22,7 +21,7 @@ public class Node<T> {
 
     /**
      * Constructor de un nodo con contenido y referencias a siguiente y anterior
-     * 
+     *
      * @param data contenido del nodo
      * @param next siguiente nodo de la lista
      * @param prev nodo anterior de la lista
@@ -35,7 +34,7 @@ public class Node<T> {
 
     /**
      * Constructor de un nodo con contenido y referencia al siguiente
-     * 
+     *
      * @param data contenido del nodo
      * @param next siguiente nodo de la lista
      */
@@ -46,7 +45,7 @@ public class Node<T> {
 
     /**
      * Constructor de un nodo con contenido
-     * 
+     *
      * @param data contenido del nodo
      */
     public Node(T data) {
@@ -61,7 +60,7 @@ public class Node<T> {
 
     /**
      * Devuelve el contenido del nodo
-     * 
+     *
      * @return contenido del nodo
      */
     public T getData() {
@@ -70,7 +69,7 @@ public class Node<T> {
 
     /**
      * Modifica el contenido del nodo
-     * 
+     *
      * @param data contenido del nodo
      */
     public void setData(T data) {
@@ -79,7 +78,7 @@ public class Node<T> {
 
     /**
      * Devuelve la referencia al siguiente nodo de la lista
-     * 
+     *
      * @return siguiente nodo de la lista
      */
     public Node<T> getNext() {
@@ -88,7 +87,7 @@ public class Node<T> {
 
     /**
      * Modifica la referencia al siguiente nodo de la lista
-     * 
+     *
      * @param next siguiente nodo de la lista
      */
     public void setNext(Node<T> next) {
@@ -97,7 +96,7 @@ public class Node<T> {
 
     /**
      * Devuelve la referencia al nodo anterior de la lista
-     * 
+     *
      * @return nodo anterior de la lista
      */
     public Node<T> getPrev() {
@@ -106,7 +105,7 @@ public class Node<T> {
 
     /**
      * Modifica la referencia al nodo anterior de la lista
-     * 
+     *
      * @param prev nodo anterior de la lista
      */
     public void setPrev(Node<T> prev) {
@@ -115,7 +114,7 @@ public class Node<T> {
 
     /**
      * Representacion en forma de cadena de la lista
-     * 
+     *
      * @return representacion en forma de cadena de la lista
      */
     @Override

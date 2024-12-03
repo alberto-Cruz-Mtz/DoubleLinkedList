@@ -32,9 +32,9 @@ public class DoubleLinkedList<T> implements IDoubleLinkedList<T> {
 
     /**
      * Agrega un elemento al inicio de la lista
-     * 
+     * <p>
      * Si la lista esta vacia, crea una nueva lista con el elemento especificado
-     * 
+     *
      * @param data elemento a ser contenido en la lista
      */
     @Override
@@ -61,7 +61,7 @@ public class DoubleLinkedList<T> implements IDoubleLinkedList<T> {
 
     /**
      * Agrega un elemento antes del elemento especificado en la lista
-     * 
+     *
      * @param target elemento antes del cual se va a agregar
      * @param data   elemento a ser contenido en la lista
      */
@@ -106,9 +106,9 @@ public class DoubleLinkedList<T> implements IDoubleLinkedList<T> {
 
     /**
      * Agrega un elemento despues del elemento especificado en la lista
-     * 
+     * <p>
      * Si la lista esta vacia, crea una nueva lista con el elemento especificado
-     * 
+     *
      * @param target elemento despues del cual se va a agregar
      * @param data   elemento a ser contenido en la lista
      */
@@ -153,9 +153,9 @@ public class DoubleLinkedList<T> implements IDoubleLinkedList<T> {
 
     /**
      * Agrega un elemento al final de la lista
-     * 
+     * <p>
      * Si la lista esta vacia, crea una nueva lista con el elemento especificado
-     * 
+     *
      * @param data elemento a ser contenido en la lista
      */
     @Override
@@ -187,9 +187,9 @@ public class DoubleLinkedList<T> implements IDoubleLinkedList<T> {
 
     /**
      * Elimina el elemento al inicio de la lista.
-     * 
+     * <p>
      * Si la lista está vacía, no se realiza ninguna operación.
-     * 
+     *
      * @return true si se eliminó con éxito, false de lo contrario
      */
     @Override
@@ -219,9 +219,9 @@ public class DoubleLinkedList<T> implements IDoubleLinkedList<T> {
 
     /**
      * Elimina el elemento al final de la lista.
-     * 
+     * <p>
      * Si la lista está vacía, no se realiza ninguna operación.
-     * 
+     *
      * @return true si se eliminó con éxito, false de lo contrario
      */
     @Override
@@ -257,10 +257,10 @@ public class DoubleLinkedList<T> implements IDoubleLinkedList<T> {
 
     /**
      * Elimina el elemento antes del elemento especificado en la lista.
-     * 
+     * <p>
      * Si el elemento especificado no existe en la lista, no se realiza ninguna
      * operación.
-     * 
+     *
      * @param target elemento antes del cual se va a eliminar
      * @return true si se elimino con exito, false de lo contrario
      */
@@ -304,10 +304,10 @@ public class DoubleLinkedList<T> implements IDoubleLinkedList<T> {
 
     /**
      * Elimina el elemento después del elemento especificado en la lista.
-     * 
+     * <p>
      * Si la lista está vacía o el elemento especificado no está presente, no se
      * realiza ninguna operación.
-     * 
+     *
      * @param target el elemento después del cual se va a eliminar
      * @return true si se eliminó con éxito, false de lo contrario
      */
@@ -354,7 +354,7 @@ public class DoubleLinkedList<T> implements IDoubleLinkedList<T> {
 
     /**
      * Elimina el elemento que coincide con el valor especificado en la lista
-     * 
+     *
      * @param target valor a ser buscado en la lista
      * @return true si se elimino con exito, false de lo contrario
      */
@@ -395,7 +395,7 @@ public class DoubleLinkedList<T> implements IDoubleLinkedList<T> {
     /**
      * Devuelve el elemento que se encuentra en la posicion especificada en la
      * lista
-     * 
+     *
      * @param index posicion del elemento a ser devuelto
      * @return elemento en la posicion especificada, null si no existe
      */
@@ -419,7 +419,7 @@ public class DoubleLinkedList<T> implements IDoubleLinkedList<T> {
 
     /**
      * Devuelve el primer elemento de la lista
-     * 
+     *
      * @return primer elemento de la lista, null si no existe
      */
     @Override
@@ -433,7 +433,7 @@ public class DoubleLinkedList<T> implements IDoubleLinkedList<T> {
 
     /**
      * Devuelve el ultimo elemento de la lista
-     * 
+     *
      * @return ultimo elemento de la lista, null si no existe
      */
     @Override
@@ -457,10 +457,10 @@ public class DoubleLinkedList<T> implements IDoubleLinkedList<T> {
     /**
      * Devuelve el primer elemento que coincide con el valor especificado en la
      * lista
-     * 
+     *
      * @param data valor a ser buscado en la lista
      * @return primer elemento que coincide con el valor especificado, null si no
-     *         existe
+     * existe
      */
     public T getByData(T data) {
         // Busca el primer nodo que coincide con el valor especificado
@@ -481,10 +481,10 @@ public class DoubleLinkedList<T> implements IDoubleLinkedList<T> {
     /**
      * Devuelve el primer elemento que coincide con la condicion especificada en
      * la lista
-     * 
+     *
      * @param condition condicion a ser evaluada en la lista
      * @return primer elemento que coincide con la condicion especificada, null
-     *         si no existe
+     * si no existe
      */
     @Override
     public T getByData(Predicate<T> condition) {
@@ -506,7 +506,7 @@ public class DoubleLinkedList<T> implements IDoubleLinkedList<T> {
 
     /**
      * Devuelve una representación en forma de cadena de la lista.
-     * 
+     *
      * @return una cadena que representa la lista a partir del nodo head
      */
     @Override
